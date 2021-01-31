@@ -37,3 +37,16 @@ p {
 img {
   width: 100%;
 }
+
+.navbar {
+  background-color: #047aed;
+  color: #fff;
+  height: 50px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
