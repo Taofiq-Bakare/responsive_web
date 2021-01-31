@@ -2,6 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
 
+:root {
+  --primary-color: #047aed;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -38,8 +42,9 @@ img {
   width: 100%;
 }
 
+/* Style for navigation bar */
 .navbar {
-  background-color: #047aed;
+  background-color: var(--primary-color);
   color: #fff;
   height: 70px;
 }
@@ -62,6 +67,13 @@ img {
   justify-content: space-between;
 }
 
+/* Showcase */
+
+.showcase {
+  background-color: var(--primary-color);
+}
+
+/* Utilities */
 .container {
   max-width: 1100px;
   margin: 0 auto;
