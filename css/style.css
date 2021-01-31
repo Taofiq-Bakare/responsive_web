@@ -109,6 +109,24 @@ img {
   outline: none;
 }
 
+/* Pseudo-selectors 
+    To skew the white below .showcase
+ */
+.showcase::before,
+.showcase::after {
+  content: "HELLO!";
+  position: absolute;
+  height: 100px;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+}
+
 .showcase h1 {
   font-size: 40px;
 }
@@ -148,6 +166,16 @@ img {
   color: #fff;
   border: none;
   border-radius: 10px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+/* Add hover effect */
+.btn:hover {
+  transform: scale(0.97);
 }
 
 .flex {
