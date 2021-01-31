@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
 
+/* Declare global variables */
 :root {
   --primary-color: #047aed;
 }
@@ -12,6 +13,7 @@
   margin: 0;
 }
 
+/* Properties of the body font */
 body {
   font-family: "Lato", sans-serif;
   color: #333;
@@ -27,6 +29,7 @@ a {
   color: #333;
 }
 
+/* Heading properties */
 h1,
 h2 {
   font-weight: 300;
@@ -34,10 +37,12 @@ h2 {
   margin: 10px 0;
 }
 
+/* Paragraph properties */
 p {
   margin: 10px 0;
 }
 
+/* Image properties */
 img {
   width: 100%;
 }
@@ -71,6 +76,46 @@ img {
 
 .showcase {
   background-color: var(--primary-color);
+  height: 400px;
+  color: #fff;
+  position: relative;
+}
+
+.showcase-form {
+  position: relative;
+  top: 60px;
+  height: 350px;
+  width: 400px;
+  padding: 40px;
+  justify-self: flex-end;
+  z-index: 100;
+}
+
+.showcase-form .form-control {
+  margin: 30px 0;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.showcase h1 {
+  font-size: 40px;
+}
+
+.showcase p {
+  margin: 20px 0;
+}
+
+.showcase .grid {
+  overflow: visible;
+  grid-template-columns: 55% 45%;
+  gap: 30px;
 }
 
 /* Utilities */
@@ -81,8 +126,27 @@ img {
   padding: 0 40px;
 }
 
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 30px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
 .flex {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* create gap between the grid */
+  gap: 10px;
   justify-content: center;
   align-items: center;
   height: 100%;
