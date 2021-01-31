@@ -104,6 +104,11 @@ img {
   font-size: 16px;
 }
 
+/* Remove the inner borders of the form */
+.showcase-form input:focus {
+  outline: none;
+}
+
 .showcase h1 {
   font-size: 40px;
 }
@@ -133,6 +138,16 @@ img {
   box-shadow: 0 30px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
 }
 
 .flex {
