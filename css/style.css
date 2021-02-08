@@ -209,3 +209,11 @@ img {
 .footer .social a {
   margin: 10px;
 }
+
+/* Tablets and under */
+@media (max-width: 768px) {
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+}
