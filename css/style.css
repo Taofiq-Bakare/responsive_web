@@ -249,6 +249,10 @@ img {
   border-bottom: 1px #ccc solid;
 }
 
+.docs-main a:hover {
+  font-weight: bold;
+}
+
 /* Footer */
 
 .footer .social a {
