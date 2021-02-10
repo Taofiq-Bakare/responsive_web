@@ -237,6 +237,10 @@ img {
   margin: 20px 0;
 }
 
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+}
 /* Footer */
 
 .footer .social a {
