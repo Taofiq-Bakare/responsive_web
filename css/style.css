@@ -232,6 +232,11 @@ img {
   grid-column: 1 / span 2;
 }
 
+/* Docs */
+.docs-main h3 {
+  margin: 20px 0;
+}
+
 /* Footer */
 
 .footer .social a {
