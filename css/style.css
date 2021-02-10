@@ -32,6 +32,15 @@ a {
   color: #333;
 }
 
+/* Alert */
+
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
 /* Heading properties */
 h1,
 h2 {
