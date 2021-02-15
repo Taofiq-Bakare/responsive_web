@@ -93,6 +93,10 @@ pre {
   position: relative;
 }
 
+.showcase-text {
+  animation: slideInFromLeft 1s ease-in;
+}
+
 .showcase-form {
   position: relative;
   top: 60px;
@@ -101,6 +105,7 @@ pre {
   padding: 40px;
   justify-self: flex-end;
   z-index: 100;
+  animation: slideInFromRight 1 ease-in;
 }
 
 .showcase-form .form-control {
@@ -157,6 +162,7 @@ pre {
 
 .stats {
   padding-top: 100px;
+  animation: slideInFromBottom 1s ease-in;
 }
 
 .stats-heading {
@@ -330,11 +336,13 @@ pre {
   .showcase-text {
     text-align: center;
     margin-top: 40px;
+    animation: slideInFromTop 1s ease-in;
   }
 
   .showcase-form {
     justify-self: center;
     margin: auto;
+    animation: slideInFromBottom 1s ease-in;
   }
   .cli .grid > *:first-child {
     grid-column: 1;
